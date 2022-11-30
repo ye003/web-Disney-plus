@@ -1,0 +1,32 @@
+body {
+ background-color: #000;
+ overflow: hidden;
+ text-align:center;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+body,
+html {
+ height: 100%;
+ width: 100%;
+ margin: 0;
+ padding: 0;
+}
+
+svg {
+ width: 60%;
+ height: 60%;
+ visibility: hidden;
+ cursor: pointer;
+	overflow: visible;
+}
+
+#plus {
+	opacity: 0
+}
+
+#logoType {
+	opacity: 0
+}
